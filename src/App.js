@@ -12,7 +12,7 @@ function App() {
   const [filteredItems, setFilteredItems] = useState([])
 
   useEffect(() => {
-    getLocalTodos()
+    Todos()
   }, [])
 
   //useEffect
