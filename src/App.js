@@ -11,10 +11,6 @@ function App() {
   const [filter, setFilter] = useState('all')
   const [filteredItems, setFilteredItems] = useState([])
 
-  useEffect(() => {
-    Todos()
-  }, [])
-
   //useEffect
   useEffect(() => {
     filterItemsHandler()
